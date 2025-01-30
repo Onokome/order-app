@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+
+.smythe-regular {
+    font-family: "Smythe", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container{
+    width: 600px;
+    margin: 0  auto;
+    padding: 0;
+    position: relative;
+  }
+  header{
+    background-image: url(./asset/header-bg.svg);
+    height: 167px;
+    margin: 0;
+    padding: 1px 0; 
+    color: hsla(0, 0%, 100%, 1)
+  }
+
+ header > h2{
+    font-family: "Smythe", serif;
+    font-family: Smythe;
+font-size: 2.43rem;
+font-weight: 400;
+line-height: 24px;
+margin-inline-start: 46px;
+margin-block-start: 46px;
+margin-block-end: 19px;
+  }
+
+  header > p{
+    font-family: "Smythe", serif;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 13.8px;
+margin-inline-start: 46px;
+  }
+
+  .menu-item{
+    width: 508px;
+    height: 140px;
+    border-bottom: 1px solid hsla(0, 0%, 82%, 1);
+    margin-inline-start: 46px;
+   font-family: "Smythe", serif;
+}
+
+.menu-item h3{
+  width: 70px;
+  font-family:"Smythe", serif; 
+ font-size: 60px;
+}
+
+.menu-item h4{
+font-size: 1.75rem;
+font-weight: 400;
+line-height: 16.8px;
+margin-block-end: 8px;
+}
+
+.menu-item p{
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+margin-block-end: 8px;
+color: hsla(0, 0%, 55%, 1);
+}
+.menu-item h5{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.first-sect{
+  display: flex;
+  justify-content:space-around ;
+  gap: 30px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: 50px;
+}
+.box button{
+  height: 50px;
+  width: 50px;
+  background: none;
+  border: 1.5px solid hsla(0, 0%, 87%, 1);
+  border-radius: 50px;
+  font-size: 2rem;
+  font-family: "Jost", serif;
+}
+
+.order-container{
+  width: 508px;
+  margin-inline-start: 46px;
+  margin-block-start: 45px;
+  font-family: 'Smythe', serif;
+font-size: 1.75rem;
+font-weight: 400;
+line-height: 16.8px;
+}
+
+.order-container h4{
+  margin: 0 auto;
+  text-align: center;
+  margin-block-end: 64px;
+}
+
+.order-box{
+  display: flex;
+  justify-content: space-between;
+  margin-block-end: 22px;
+}
+
+.order-box span {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+
+  >button{
+    border: none;
+    background: none;
+    font-family: "Jost", serif;
+    cursor: pointer;
+  }
+}
+
+.total-price{
+  margin-block-start: 28px;
+  border-top: 2px solid hsla(360, 6%, 21%, 1);
+}
+
+.total{
+  display: flex;
+  margin-block-start: 14px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.complete-order-btn{
+  margin-block-start: 53px;
+  width: 508px;
+  height: 60px;
+  background-color: hsla(160, 82%, 47%, 1);
+  border: none;
+  color: hsla(0, 0%, 100%, 1);
+  font-family: "Jost",serif;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.modal-container{
+  width: 524px;
+  height: 450px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 30%;
+  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.5);
+  z-index: 1000;
+  background-color: hsla(0, 0%, 100%, 1);
+  border-radius: 2px;
+}
+
+.modal-container h3{
+  font-family: "Jost",serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.12px;
+text-align: center;
+padding-block-start: 40px;
+}
+
+.modal-container input{
+  width: 475.91px;
+  height: 71.3px;
+  border:1px solid hsla(0, 0%, 46%, 1);
+  border-radius: 1.3px;
+  margin-inline-start: 23.22px;
+  margin-block-end: 23.22px;
+  padding-inline-start: 26px;
+  padding-block-start: 16px;
+}
+
+.modal-container input:focus{
+  border-color: hsla(160, 82%, 47%, 1);
+}
+
+.modal-container input::placeholder{
+  font-family: "Jost", serif;
+  font-size: 1.25rem;
+  line-height: 31px;
+}
+.pay-btn{
+  width: 475.91px;
+  height: 71.3px;
+  background-color: hsla(160, 82%, 47%, 1);
+  border: none;
+  margin-inline-start: 23.22px;
+}
+
+.close-modal-btn{
+  color: hsl(0, 100%, 50%);
+  margin-inline-start: 500px;
+  border: none;
+  background:none;
+}
