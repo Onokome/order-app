@@ -19,6 +19,9 @@
     margin: 0  auto;
     padding: 0;
     position: relative;
+    box-shadow: 0 0 8px hsla(0, 0%, 82%, 1); 
+    padding-bottom: 252px;
+    margin-bottom: 40px;
   }
   header{
     background-image: url(./asset/header-bg.svg);
@@ -194,10 +197,6 @@ padding-block-start: 40px;
   padding-block-start: 16px;
 }
 
-.modal-container input:focus{
-  border-color: hsla(160, 82%, 47%, 1);
-}
-
 .modal-container input::placeholder{
   font-family: "Jost", serif;
   font-size: 1.25rem;
@@ -216,4 +215,26 @@ padding-block-start: 40px;
   margin-inline-start: 500px;
   border: none;
   background:none;
+}
+
+.message{
+  width: 504px;
+  background-color:hsla(152, 81%, 96%, 1) ;
+  margin-inline-start: 50px;
+  margin-block-start: 45px;
+  height: 120px;
+  display: none;
+
+}
+
+.message p{
+  padding-inline-start: 59px;
+  padding-block-start: 51px;
+  color: hsla(163, 88%, 20%, 1);
+  font-family: "Smythe", serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 16.8px;
+
+
 }

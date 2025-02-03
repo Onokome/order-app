@@ -30,15 +30,16 @@
             <button id="close-modal-btn" class="close-modal-btn">X</button>
             <h3>Enter card details</h3>
             <form action="submit" id="form">
-               <input type="text"placeholder="Enter your name" name="name" required>
+               <input type="text"placeholder="Enter your name" name="name" required id="name">
                <input type="text" name="card-number" placeholder="Enter your card number" required>
                <input type="text" name="CV" placeholder="Enter CVV" required>
                <button id="pay-btn" class="pay-btn">Pay</button>
             </form>
 
         </div>
-        
-    
+        <div id="message" class="message">
+            <p>Thanks, <span id="message-input"> </span>! your order is on its way!</p>
+        </div>
 
     </div>
 

@@ -40,9 +40,11 @@ if(e.target.id === 'close-modal-btn'){
 }
 
 if (e.target.id === 'pay-btn'){
-  console.log("Pay button clicked!")
   document.getElementById('modal-container').style.display = 'none'
+  document.body.style.overflow = 'auto'
   orderContainer.innerHTML = " "
+  document.getElementById('message-input').innerHTML += document.getElementById('name').value
+  document.getElementById('message').style.display = 'block'
 }
 
 })
@@ -119,3 +121,5 @@ function renderOrder(){
 document.getElementById('form').addEventListener('submit', function(e){
   e.preventDefault()
 })
+
+
